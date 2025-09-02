@@ -1,0 +1,16 @@
+﻿using Lesson_4_EntityFrameworkCodeFirst.Models.Base;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Fulent_API.Models
+{
+    internal class Teacher : BaseEntity
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Id_Department { get; set; }
+    }
+}
