@@ -13,11 +13,7 @@ namespace Fulent_API.Configurations
     {
         public void Configure(EntityTypeBuilder<T_Card> builder)
         {
-            builder.Ignore(x => x.Id);
-            builder.Ignore(x => x.CreatedDate);
-            builder.Ignore(x => x.ModifiedDate);
-
-            builder.HasNoKey();
+          
 
             builder.HasOne<Teacher>()
                   .WithMany()

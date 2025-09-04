@@ -23,6 +23,7 @@ namespace Fulent_API.Context
         public DbSet<S_Card> S_Cards { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Group> Groups { get; set; }
+        public DbSet<Libs> Libs { get; set; }
         public DbSet<Faculty> Faculties { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

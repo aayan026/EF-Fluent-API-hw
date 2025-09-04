@@ -11,7 +11,7 @@ namespace Fulent_API.Models
     {
         public string Name { get; set; }
         public int Pages { get; set; }
-        public DateTime YearPress { get; set; }
+        public int YearPress { get; set; }
         public int Id_Theme { get; set; }
         public int Id_Category { get; set; }
         public int Id_Author { get; set; }
